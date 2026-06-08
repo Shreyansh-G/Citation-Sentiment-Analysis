@@ -1,8 +1,7 @@
 # Citation-Sentiment-Analysis
 
 Code for the paper **_Hybrid Graph–Language Embedding Framework for Citation-Aware
-Sentiment Analysis_** (Anukul Kapoor, Shreyansh Gupta, Akshay Deepak; Department
-of Computer Science and Engineering, NIT Patna).
+Sentiment Analysis_** (Anukul Kapoor, Shreyansh Gupta, Akshay Deepak; NIT Patna).
 
 ## Overview
 
