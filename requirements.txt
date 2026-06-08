@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Citation Sentiment Analysis -- Python dependencies
+#
+# Recommended: Python 3.10 / 3.11, where every dependency coexists on numpy<2.
+# On Python 3.13, TensorFlow needs numpy>=2 but gensim needs numpy<2 -- use the
+# two-phase install described in the README ("Python 3.13 note").
+# tensorflow / torch / torch-geometric wheels are platform- and CUDA-specific.
+# ---------------------------------------------------------------------------
+
+# Core scientific stack
+numpy>=1.23,<2
+pandas>=1.5,<2.1
+scipy>=1.9
+scikit-learn>=1.2,<1.6
+networkx>=2.8,<3.3
+tqdm>=4.64
+matplotlib>=3.6
+seaborn>=0.12
+
+# Graph + language embeddings
+node2vec>=0.4.6
+gensim>=4.3
+transformers>=4.30
+
+# Custom TensorFlow GNN variants (run_node2vec / run_bert / run_hybrid)
+tensorflow>=2.12,<2.16
+
+# PyTorch Geometric variant (run_pyg)
+torch>=2.0
+torch-geometric>=2.3

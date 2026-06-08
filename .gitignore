@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset (not redistributed -- see data/README.md)
+data/*.txt
+data/*.csv
+data/*.tsv
+
+# Cached embeddings & generated outputs
+cache/
+outputs/
+*.pkl
+
+# OS / editor / tooling cruft
+.DS_Store
+.vscode/
+.idea/
+.claude/
