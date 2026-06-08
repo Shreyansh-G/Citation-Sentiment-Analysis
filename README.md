@@ -254,3 +254,8 @@ python src/run_node2vec.py --split-seed 941508052 --init-seed 769732007    # 90.
 ## Citation
 
 _Citation details to be added._
+
+## Acknowledgements
+
+We thank Claude (Anthropic) for helping us refactor our research notebooks into
+the modular code in `src/` and write this documentation.
